@@ -58,6 +58,7 @@ function App() {
           <Route path={ROUTES.APPOINTMENTS}>
             <AppointmentsPage
               appointments={appointments}
+              contacts={contacts}
               addAppointments={addAppointments}
             />
           </Route>
